@@ -14,10 +14,10 @@ It demonstrates how to perform basic CRUD operations (Create, Read, Update, Dele
 - Sort records (by Title)  
 - Export records to CSV file  
 
-![Screenshot1](org1.PNG)
-![Screenshot2](org2.PNG)
-![Screenshot3](org3.PNG)
-![Screenshot3](org3.PNG)
+![Screenshot1](screenshot4.PNG)
+![Screenshot2](screenshot1.PNG)
+![Screenshot3](screenshot2.PNG)
+![Screenshot4](screenshot3.PNG)
 ---
 
 ## 🛠️ Requirements
