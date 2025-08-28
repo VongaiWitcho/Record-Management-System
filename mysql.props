@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemDefinitionGroup>
+		<ClCompile>
+			<!-- Point to MySQL Connector/C++ headers -->
+			<AdditionalIncludeDirectories>
+				C:\mysql-connector-c++-8.0.33-winx64\include\jdbc;
+				%(AdditionalIncludeDirectories)
+			</AdditionalIncludeDirectories>
+		</ClCompile>
+		<Link>
+			<!-- Point to MySQL Connector/C++ libraries -->
+			<AdditionalLibraryDirectories>
+				C:\mysql-connector-c++-8.0.33-winx64\lib64;
+				%(AdditionalLibraryDirectories)
+			</AdditionalLibraryDirectories>
+			<!-- Link against mysqlcppconn -->
+			<AdditionalDependencies>
+				mysqlcppconn.lib;
+				%(AdditionalDependencies)
+			</AdditionalDependencies>
+		</Link>
+	</ItemDefinitionGroup>
+</Project>
